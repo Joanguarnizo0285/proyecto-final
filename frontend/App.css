@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los contenedores */
+  .container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para la lista de eventos */
+  .event-list {
+    margin-top: 20px;
+  }
+  
+  .event-list-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+  }
+  
+  .event-list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para los títulos */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para los mensajes de error */
+  .error-message {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para los mensajes de éxito */
+  .success-message {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
